@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H_B_L - Салон красоты и косметологии в Батайске</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- Или если favicon в папке images -->
+<link rel="icon" href="img/photo_2025-07-09_23-07-37.png" type="image/x-icon">
+<!-- Для старых браузеров -->
+<link rel="shortcut icon" href="img/photo_2025-07-09_23-07-37.png" type="image/x-icon">
+<!-- Для Retina-дисплеев -->
+<link rel="icon" type="image/png" sizes="32x32" href="img/photo_2025-07-09_23-07-37.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/photo_2025-07-09_23-07-37.png">
+<!-- Для Apple устройств -->
+<link rel="apple-touch-icon" sizes="180x180" href="img/photo_2025-07-09_23-07-37.png">
+</head>
+<body>
+    <!-- Боковое меню -->
+    <div class="side-menu">
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        
+        <a href="#" class="logo">H<span>_</span>B<span>_</span>L</a>
+        
+        <a href="#services" class="menu-item">
+            <i class="fas fa-spa"></i>
+            <span>Услуги</span>
+        </a>
+        
+        <a href="#price" class="menu-item">
+            <i class="fas fa-tags"></i>
+            <span>Прайс</span>
+        </a>
+        
+        <a href="#contact" class="menu-item">
+            <i class="fas fa-phone-alt"></i>
+            <span>Контакты</span>
+        </a>
+    </div>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Профессиональный уход в салоне красоты H_B_L</h1>
+            <p>Мы создаем красоту с любовью и заботой о каждом клиенте</p>
+            <button id="bookBtn" class="btn">Записаться онлайн</button>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Наши <span>услуги</span></h2>
+            <div class="services-grid">
+                <!-- Депиляция воск/шугаринг -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="img/photo_2025-07-09_21-35-16.jpg" alt="Депиляция">
+                    </div>
+                    <div class="service-content">
+                        <h3>Депиляция воск/шугаринг</h3>
+                        <p>Профессиональное удаление волос с помощью воска или сахарной пасты для гладкой кожи на долгое время.</p>
+                    </div>
+                </div>
+
+                <!-- Тейпирование -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="img/photo_2025-07-09_21-35-21.jpg" alt="Тейпирование">
+                    </div>
+                    <div class="service-content">
+                        <h3>Тейпирование</h3>
+                        <p>Коррекция фигуры и омоложение кожи с помощью специальных клейких лент.</p>
+                    </div>
+                </div>
+
+                <!-- Аппаратный массаж тела -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="img/photo_2025-07-09_21-35-17.jpg" alt="Аппаратный массаж">
+                    </div>
+                    <div class="service-content">
+                        <h3>Аппаратный массаж тела</h3>
+                        <p>Современные технологии для коррекции фигуры, улучшения лимфотока и тонуса кожи.</p>
+                    </div>
+                </div>
+
+                <!-- Маникюр -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="img/photo_2025-07-09_21-35-12.jpg" alt="Маникюр">
+                    </div>
+                    <div class="service-content">
+                        <h3>Маникюр</h3>
+                        <p>Профессиональный уход за руками: классический, аппаратный маникюр, покрытие гель-лаком.</p>
+                    </div>
+                </div>
+
+                <!-- Наращивание ресниц -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="img/photo_2025-07-09_21-35-14.jpg" alt="Наращивание ресниц">
+                    </div>
+                    <div class="service-content">
+                        <h3>Наращивание ресниц</h3>
+                        <p>Объемное и поресничное наращивание для выразительного взгляда.</p>
+                    </div>
+                </div>
+
+                <!-- Ламинирование ресниц + брови -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="img/photo_2025-07-09_21-35-15.jpg" alt="Ламинирование">
+                    </div>
+                    <div class="service-content">
+                        <h3>Ламинирование ресниц + брови</h3>
+                        <p>Уходовая процедура для блеска, густоты и изгиба ваших ресниц и бровей.</p>
+                    </div>
+                </div>
+
+                <!-- Процедуры для лица -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="img/photo_2025-07-09_21-35-18.jpg" alt="Процедуры для лица">
+                    </div>
+                    <div class="service-content">
+                        <h3>Процедуры для лица</h3>
+                        <p>Индивидуальный уход за кожей лица: чистка, пилинги, увлажнение и омоложение.</p>
+                    </div>
+                </div>
+
+                <!-- Продукция для похудения NL -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="img/photo_2025-07-09_21-35-20.jpg" alt="Продукция NL">
+                    </div>
+                    <div class="service-content">
+                        <h3>Продукция для похудения NL</h3>
+                        <p>Профессиональные средства для коррекции фигуры и антицеллюлитного ухода.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="price" class="price-list">
+        <div class="container">
+            <h2 class="section-title">Наш <span>прайс-лист</span></h2>
+            <button id="priceBtn" class="price-btn">Показать прайс</button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Как <span>нас найти</span></h2>
+            <div class="contact-info">
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>г. Батайск, Авиагородок 23</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>8 (918) 898-37-34</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>8 (988) 892-16-10</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <p>Пн-Пт: 9:00 - 20:00</p>
+                            <p>Сб-Вс: 10:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button id="bookBtn2" class="btn" style="margin-top: 2rem;">Записаться онлайн</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>© 2023 Салон красоты и косметологии H_B_L. Все права защищены.</p>
+            <p>г. Батайск, Авиагородок 23</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для записи -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 class="modal-title">Выберите удобный способ записи</h3>
+            <div class="social-booking">
+                <a href="https://vk.com/aaa_h_bl" class="social-btn vk-btn">
+                    <i class="fab fa-vk"></i> Записаться через ВКонтакте
+                </a>
+                <a href="https://t.me/Aaa_H_BL" class="social-btn telegram-btn">
+                    <i class="fab fa-telegram"></i> Записаться через Telegram
+                </a>
+                <a href="https://wa.me/79188983734" class="social-btn whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Записаться через WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно для прайс-листа -->
+    <div id="priceModal" class="modal price-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 class="modal-title">Прайс-лист салона красоты <span>H_B_L</span></h3>
+            <div class="price-table-container">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Услуга</th>
+                            <th>Описание</th>
+                            <th>Время</th>
+                            <th>Цена</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Депиляция воском</td>
+                            <td>Зона бикини классическая</td>
+                            <td>30 мин</td>
+                            <td>500 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Шугаринг</td>
+                            <td>Ноги полностью</td>
+                            <td>60 мин</td>
+                            <td>1000 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Тейпирование лица</td>
+                            <td>Лифтинг-процедура</td>
+                            <td>45 мин</td>
+                            <td>500 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Аппаратный массаж</td>
+                            <td>Спина + шейно-воротниковая зона</td>
+                            <td>60 мин</td>
+                            <td>от 1200 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Маникюр</td>
+                            <td>Аппаратный + покрытие гель-лак</td>
+                            <td>90 мин</td>
+                            <td>1 800 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Наращивание ресниц</td>
+                            <td>Объем 1.5D</td>
+                            <td>120 мин</td>
+                            <td>1300 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Ламинирование ресниц</td>
+                            <td>С окрашиванием</td>
+                            <td>60 мин</td>
+                            <td>900 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Чистка лица</td>
+                            <td>Ультразвуковая</td>
+                            <td>60 мин</td>
+                            <td>1300 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Программа NL</td>
+                            <td>Курс из 5 процедур</td>
+                            <td>-</td>
+                            <td>12 000 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Комплекс "Все включено"</td>
+                            <td>Маникюр + педикюр + чистка лица</td>
+                            <td>180 мин</td>
+                            <td>4000 руб.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
